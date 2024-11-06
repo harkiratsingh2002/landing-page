@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+body {
+  font-family: "Roboto", Courier, monospace;
+}
 .container {
   padding: 0 150px;
 }
@@ -11,7 +14,7 @@ ul {
 }
 .navbar a {
   text-decoration: none;
-  color: white;
+  color: #f9faf8;
 }
 
 .header {
@@ -20,7 +23,7 @@ ul {
 }
 .navbar {
   display: flex;
-  font-size: larger;
+  font-size: 24px;
   justify-content: space-between;
 }
 
@@ -29,4 +32,47 @@ ul {
   display: flex;
   gap: 15px;
   padding-top: 3vh;
+}
+.right-links {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.main-info {
+  padding: 80px 0;
+  display: flex;
+  background-color: #1f2937;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 22px;
+}
+
+.sign-up-btn {
+  background-color: #3882f6;
+  border: none;
+  padding: 5px 15px;
+  color: white;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-top: 8px;
+}
+
+.intro-img {
+  width: 30vw;
+}
+
+.info-text {
+  width: 90vh;
+}
+.info-text h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+.info-text p {
+  font-size: 18px;
+  color: #e5e7eb;
 }
