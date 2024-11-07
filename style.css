@@ -84,12 +84,16 @@ ul {
 .card-content {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 20px;
 }
 
 .card {
   max-width: 200px;
   text-align: center;
+}
+.card img {
+  border: 5px solid #3882f6;
+  border-radius: 5px;
 }
 
 .heading {
@@ -97,6 +101,7 @@ ul {
   font-size: 36px;
   font-weight: 900;
   color: #1f2937;
+  margin: 20px;
 }
 
 .testimonial {
